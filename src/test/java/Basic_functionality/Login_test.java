@@ -15,7 +15,7 @@ public class Login_test {
 		driver.manage().window().maximize();
 		//driver.manage().window().setSize(new Dimension(430,932));
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		driver.findElement(By.xpath("//input[@name='username']")).sendKeys("Admin");
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("admin123");
